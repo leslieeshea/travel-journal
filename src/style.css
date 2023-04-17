@@ -1,3 +1,17 @@
 body {
 	font-family: 'Inter', sans-serif;
+	margin: 0px;
+}
+
+nav {
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #F55A5A;
+}
+
+.title {
+	font-weight: 500;
+	color: white;
 }
