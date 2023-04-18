@@ -11,25 +11,43 @@ nav {
 	background-color: #F55A5A;
 }
 
+.navbar--globe {
+	color: white;
+	font-size: 23px;
+}
+
 .navbar--title {
 	font-weight: 500;
 	color: white;
+	margin-left: 5px;
 }
 
 .card--list {
 	margin: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .card {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+	width: 60%;
+	margin-bottom: 25px;
+	border-bottom: thin solid #918E9B;
+}
+
+.card:last-child {
+	margin-bottom: 0;
+	border-bottom: none;
 }
 
 .card--image {
 	object-fit: cover;
 	width: 176px;
 	border-radius: 5px;
+	margin-bottom: 20px;
 }
 
 .card--details {
@@ -41,6 +59,14 @@ nav {
 	margin-left: 10px;
 }
 
-hr {
-	color: #918E9B;
+.card--location-icon {
+	color: #F55A5A;
+}
+
+.card--location {
+	margin-left: 3px;
+}
+
+.card--dates {
+	font-weight: 700;
 }
