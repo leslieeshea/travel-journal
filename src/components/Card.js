@@ -1,9 +1,15 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
 
 export default function Card() {
 	return (
 		<div className='card'>
-			<div className='card--image'></div>
+			<img
+				className='card--image'
+				alt='card-image'
+				src='https://images.unsplash.com/photo-1621164870333-7931835f05de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80'
+			/>
 			<div className='card--details'>
 				<span className='card--location'>ISTANBUL</span>
 				<a
