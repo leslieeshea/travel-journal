@@ -1,6 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
 export default [
 	{
+		id: 1,
 		title: "Taipei 101",
 		location: "Taipei",
 		googleMapsUrl: "https://www.google.com/maps/d/viewer?mid=1U6fb_2PgtskZbzOZHIQ27YKLy5o&hl=en&ll=25.033738999999997%2C121.564322&z=17",
@@ -10,6 +11,7 @@ export default [
 		imageUrl: "https://images.unsplash.com/photo-1601534621622-8587a8a0da11?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
 	},
 	{
+		id: 2,
 		title: "Rockefeller Center",
 		location: "New York",
 		googleMapsUrl: "https://www.google.com/maps/d/viewer?mid=1QiF_3xgxcXDtN1AVLJEHb0c689o&hl=en&ll=40.7584370013142%2C-73.97794199999998&z=19",
@@ -19,6 +21,7 @@ export default [
 		imageUrl: "https://images.unsplash.com/photo-1454686492631-2ce80cbec3a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
 	},
 	{
+		id: 3,
 		title: "Hagia Sophia",
 		location: "Istanbul",
 		googleMapsUrl: "https://www.google.com/maps/d/viewer?mid=1izAC_NU-T8opgp_MeLgji5_uDhE&hl=en_US&ll=41.00850000000001%2C28.979283999999996&z=17",
@@ -28,6 +31,7 @@ export default [
 		imageUrl: "https://images.unsplash.com/photo-1621164870333-7931835f05de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
 	},
 	{
+		id: 4,
 		title: "Trevi Fountain",
 		location: "Rome",
 		googleMapsUrl: "https://www.google.com/maps/d/viewer?mid=1nfLdUeQthGEERiCr_TuaMs8pzlk&hl=en_US&ll=41.900623999999986%2C12.483076000000016&z=17",
