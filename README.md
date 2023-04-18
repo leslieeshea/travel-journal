@@ -1,2 +1,2 @@
 # travel-journal
-A journal of places I would love to travel to someday.
+A journal of places that I have traveled to.
