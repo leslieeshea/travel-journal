@@ -11,9 +11,13 @@ nav {
 	background-color: #F55A5A;
 }
 
-.title {
+.navbar--title {
 	font-weight: 500;
 	color: white;
+}
+
+.card--list {
+	margin: 30px;
 }
 
 .card {
@@ -23,6 +27,20 @@ nav {
 }
 
 .card--image {
-	width: 326px;
-	height: 368px;
+	object-fit: cover;
+	width: 176px;
+	border-radius: 5px;
+}
+
+.card--details {
+	margin-left: 15px;
+}
+
+.card--map {
+	color: #918E9B;
+	margin-left: 10px;
+}
+
+hr {
+	color: #918E9B;
 }
